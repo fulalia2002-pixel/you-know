@@ -1,0 +1,171 @@
+{
+  "fixed_effects_consistency": [
+    {
+      "effect": "Interlocutor (AI vs. Human)",
+      "beta": -1.18,
+      "SE": 0.17,
+      "z_recomputed": -6.94,
+      "OR": 0.307,
+      "CI95": [
+        0.22,
+        0.43
+      ]
+    },
+    {
+      "effect": "Function (INTP vs. TEXT)",
+      "beta": 0.42,
+      "SE": 0.18,
+      "z_recomputed": 2.33,
+      "OR": 1.522,
+      "CI95": [
+        1.07,
+        2.17
+      ]
+    },
+    {
+      "effect": "Function (EPIS vs. TEXT)",
+      "beta": -0.31,
+      "SE": 0.22,
+      "z_recomputed": -1.41,
+      "OR": 0.733,
+      "CI95": [
+        0.48,
+        1.13
+      ]
+    },
+    {
+      "effect": "Interlocutor x Function (INTP)",
+      "beta": -1.42,
+      "SE": 0.28,
+      "z_recomputed": -5.07,
+      "OR": 0.242,
+      "CI95": [
+        0.14,
+        0.42
+      ]
+    },
+    {
+      "effect": "Interlocutor x Function (EPIS)",
+      "beta": -0.68,
+      "SE": 0.34,
+      "z_recomputed": -2.0,
+      "OR": 0.507,
+      "CI95": [
+        0.26,
+        0.99
+      ]
+    },
+    {
+      "effect": "AI familiarity",
+      "beta": 0.29,
+      "SE": 0.13,
+      "z_recomputed": 2.23,
+      "OR": 1.336,
+      "CI95": [
+        1.04,
+        1.72
+      ]
+    },
+    {
+      "effect": "Interlocutor x AI familiarity",
+      "beta": -0.18,
+      "SE": 0.11,
+      "z_recomputed": -1.64,
+      "OR": 0.835,
+      "CI95": [
+        0.67,
+        1.04
+      ]
+    },
+    {
+      "effect": "Speech act (Expressive vs. Statement)",
+      "beta": 0.87,
+      "SE": 0.21,
+      "z_recomputed": 4.14,
+      "OR": 2.387,
+      "CI95": [
+        1.58,
+        3.6
+      ]
+    },
+    {
+      "effect": "Speech act (Directive vs. Statement)",
+      "beta": -0.52,
+      "SE": 0.19,
+      "z_recomputed": -2.74,
+      "OR": 0.595,
+      "CI95": [
+        0.41,
+        0.86
+      ]
+    },
+    {
+      "effect": "Preceding pause (Present vs. Absent)",
+      "beta": 0.63,
+      "SE": 0.15,
+      "z_recomputed": 4.2,
+      "OR": 1.878,
+      "CI95": [
+        1.4,
+        2.52
+      ]
+    },
+    {
+      "effect": "Turn length (log CU)",
+      "beta": 0.41,
+      "SE": 0.11,
+      "z_recomputed": 3.73,
+      "OR": 1.507,
+      "CI95": [
+        1.21,
+        1.87
+      ]
+    },
+    {
+      "effect": "Speaker age",
+      "beta": -0.03,
+      "SE": 0.01,
+      "z_recomputed": -3.0,
+      "OR": 0.97,
+      "CI95": [
+        0.95,
+        0.99
+      ]
+    },
+    {
+      "effect": "Gender (Female vs. Male)",
+      "beta": 0.38,
+      "SE": 0.22,
+      "z_recomputed": 1.73,
+      "OR": 1.462,
+      "CI95": [
+        0.95,
+        2.25
+      ]
+    }
+  ],
+  "descriptives": {
+    "rate_HH_per100": 11.8,
+    "rate_HAI_per100": 4.3,
+    "raw_reduction_pct": 63.7,
+    "OR_interlocutor": 0.307,
+    "adjusted_odds_reduction_pct": 69.3,
+    "functions": {
+      "TEXT": {
+        "hh": 182,
+        "hai": 98,
+        "raw_reduction_pct": 46.2
+      },
+      "INTP": {
+        "hh": 241,
+        "hai": 47,
+        "raw_reduction_pct": 80.5
+      },
+      "EPIS": {
+        "hh": 63,
+        "hai": 16,
+        "raw_reduction_pct": 74.6
+      }
+    }
+  }
+}
